@@ -1,0 +1,9 @@
+name: TestPlugin2
+version: '${version}'
+main: ru.test.la.testplugin2.TestPlugin2
+commands:
+  createzombie:
+    description: "Summons a fully armored zombie called TESTENTITY"
+    usage: "/createzombie"
+    alases: [createzombie]
+    permission-message: "You don't have the permission to summon a zombie."
